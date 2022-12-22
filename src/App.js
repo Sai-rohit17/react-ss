@@ -13,7 +13,7 @@ import {
 
 function App() {
     const shareLink = "https://common-coredev-eks-wlpc.cloud.synchronoss.net/web/app/share/invite/bBUkTKUnmP"
-    const shareUrl = "https://sai-rohit17.github.io/cloud-preview/"
+    
     return (
     <div>
       <h1>share ur image</h1>
@@ -32,7 +32,7 @@ function App() {
         <WhatsappIcon size={40} round={true} />
       </WhatsappShareButton>
       <TwitterShareButton
-      url={shareUrl}
+      url={shareLink}
       quote={'India is my country'}
       hashtag={'India'}
       >
