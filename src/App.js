@@ -12,7 +12,7 @@ import {
 
 
 function App() {
-    const shareLink = "https://common-coredev-eks-wlpc.cloud.synchronoss.net/web/app/share/invite/bBUkTKUnmP"
+    //const shareLink = "https://common-coredev-eks-wlpc.cloud.synchronoss.net/web/app/share/invite/bBUkTKUnmP"
     
     return (
     <div>
