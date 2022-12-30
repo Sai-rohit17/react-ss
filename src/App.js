@@ -13,7 +13,7 @@ import {
 
 
 function App() {
-    const shareLink = "https://sportshub.cbsistatic.com/i/2022/05/09/7e187fc9-2f31-4eb3-92ba-bf60e4fa35a1/avatar-2-teaser-trailer-images-jake-sulai-sam-worthington.jpg"
+    const shareLink = "https://common-coredev-eks-wlpc.cloud.synchronoss.net/web/app/share/invite/MJCQodpurj"
     
     return (
     <div>
