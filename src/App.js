@@ -1,4 +1,5 @@
 import React from 'react';
+import MetaTags from 'react-meta-tags';
 import {
   FacebookShareButton,
   WhatsappShareButton,
@@ -36,6 +37,15 @@ function App() {
       quote={'India is my country'}
       hashtag={'India'}
       >
+        <MetaTags>
+        <meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@DuvvuriRohit" />
+<meta name="twitter:creator" content="@DuvvuriRohit" />
+<meta property="og:url" content={shareLink} />
+<meta property="og:title" content="A Twitter for My Sister" />
+<meta property="og:description" content="In the early days, Twitter grew so quickly that it was almost impossible to add new features because engineers spent their time trying to keep the rocket ship from stalling." />
+<meta property="og:image" content={shareLink} />
+          </MetaTags>
         <TwitterIcon size={40} round={true} />
       </TwitterShareButton>
       <TelegramShareButton
