@@ -33,7 +33,7 @@ function App() {
         <WhatsappIcon size={40} round={true} />
       </WhatsappShareButton>
       <TwitterShareButton
-      url={shareLink}
+      //url={shareLink}
       quote={'India is my country'}
       hashtag={'India'}
       >
