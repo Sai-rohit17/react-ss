@@ -1,5 +1,5 @@
 import React from 'react';
-import Helmet from "react-helmet";
+//import Helmet from "react-helmet";
 import {
   FacebookShareButton,
   WhatsappShareButton,
@@ -13,7 +13,7 @@ import {
 
 
 function App() {
-    const shareLink = "https://common-coredev-eks-wlpc.cloud.synchronoss.net/web/app/share/invite/MJCQodpurj"
+    const shareLink = "https://sportshub.cbsistatic.com/i/2022/05/09/7e187fc9-2f31-4eb3-92ba-bf60e4fa35a1/avatar-2-teaser-trailer-images-jake-sulai-sam-worthington.jpg"
     
     return (
     <div>
@@ -37,7 +37,7 @@ function App() {
       quote={'India is my country'}
       hashtag={'India'}
       >
-        <Helmet>
+        {/* <Helmet>
         <meta name="twitter:card" content="summary" />
 <meta name="twitter:site" content="@DuvvuriRohit" />
 <meta name="twitter:creator" content="@DuvvuriRohit" />
@@ -45,7 +45,7 @@ function App() {
 <meta property="og:title" content="A Twitter for My Sister" />
 <meta property="og:description" content="In the early days, Twitter grew so quickly that it was almost impossible to add new features because engineers spent their time trying to keep the rocket ship from stalling." />
 <meta property="og:image" content="https://sportshub.cbsistatic.com/i/2022/05/09/7e187fc9-2f31-4eb3-92ba-bf60e4fa35a1/avatar-2-teaser-trailer-images-jake-sulai-sam-worthington.jpg" />
-          </Helmet>
+          </Helmet> */}
         <TwitterIcon size={40} round={true} />
       </TwitterShareButton>
       <TelegramShareButton
