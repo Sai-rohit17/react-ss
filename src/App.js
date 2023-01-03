@@ -13,7 +13,7 @@ import {
 
 
 function App() {
-    const shareLink = "https://common-coredev-eks-wlpc.cloud.synchronoss.net/web/app/share/invite/MJCQodpurj"
+    const shareLink = "https://sai-rohit17.github.io/cloud-preview/"
     
     return (
     <div>
