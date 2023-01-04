@@ -59,7 +59,7 @@ function App() {
       <LinkedinShareButton
       title={'Hello future'}
       summary={'India is my country'}
-      source={shareLink}
+      url={shareLink}
       >
         <LinkedinIcon size={40} round={true} />
       </LinkedinShareButton>
