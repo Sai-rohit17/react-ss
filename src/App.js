@@ -57,8 +57,9 @@ function App() {
         <TelegramIcon size={40} round={true} />
       </TelegramShareButton>
       <LinkedinShareButton
-      url={shareLink}
-      quote={'India is my country'}
+      title={'Hello future'}
+      summary={'India is my country'}
+      source={shareLink}
       >
         <LinkedinIcon size={40} round={true} />
       </LinkedinShareButton>
