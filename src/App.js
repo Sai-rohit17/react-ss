@@ -9,6 +9,8 @@ import {
   TwitterIcon,
   TelegramShareButton,
   TelegramIcon,
+  LinkedinShareButton,
+  LinkedinIcon
 } from 'react-share';
 
 
@@ -54,6 +56,12 @@ function App() {
       >
         <TelegramIcon size={40} round={true} />
       </TelegramShareButton>
+      <LinkedinShareButton
+      url={shareLink}
+      quote={'India is my country'}
+      >
+        <LinkedinIcon size={40} round={true} />
+      </LinkedinShareButton>
     </div>
   );
 }
